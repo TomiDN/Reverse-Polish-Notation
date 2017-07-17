@@ -87,7 +87,6 @@ void PolishMan::Algorhytm(char * input)
 			nums.Push(num);
 			newops++;
 			numcnt++;
-			processed = false;
 		}
 		else if (ValidateOp(s) != '0')
 		{
